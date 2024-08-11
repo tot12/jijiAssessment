@@ -10,31 +10,65 @@
         
     </style>
 </head>
-<body>
+<body style="background-color: white;">
     <!--emarald green and andriod green #3DDC84  and chetwode #3DDC84 and
     sugarcane #F8FFF6 -->
     <div class="header">
         <!-- two headers go in here-->
+         
         <header id="header" class="fixed-top">
+            <div id="topheader">
+                <!--top header stuff go in here-->
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>helooooooo</p>
+                    </div>
+                    <div class="col-md-8 d-flex align-items-center">
+                        <p>hiiiiii</p>
+
+                    </div>
+                </div>
+             </div>
             <div class="container d-flex align-items-center justify-content-between">
         
-                <h1 class="logo "><a href=""><img src="../images/eyecheck.PNG" /></a></h1>
+                <!--<h1 class="logo "><a href=""><img src="../images/eyecheck2.PNG" /></a></h1>-->
+                <a href="#" class="logo"><img src="../images/eyecheck2.PNG" alt="" class="img-fluid"></a>
         
                 <nav id="navbar" class="navbar ">
                     <ul>
         
-                        <li class="dropdown"><a href="#"><span>users</span> <i class="bi bi-chevron-down"></i></a>
+                        <li class="dropdown"><a href="#"><span>home</span> <i class="bi bi-chevron-down"></i></a>
                             <ul>
-                                <li><a class="nav-link scrollto" href="/registrationform">add users</a></li>
-                                <li><a class="nav-link scrollto" href="/users">view users</a></li>
-                                <li><a class="nav-link scrollto" href="/adminprofile">view profile</a></li>
+                                <li><a class="nav-link scrollto" href="#"></a></li>
+                                <li><a class="nav-link scrollto" href="#"></a></li>
+                                <li><a class="nav-link scrollto" href="#"></a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="#"><span>graphs</span> <i class="bi bi-chevron-down"></i></a>
+                        <li class="dropdown"><a href="#"><span>pages</span> <i class="bi bi-chevron-down"></i></a>
                             <ul>
-                                <li><a class="nav-link scrollto" href="/graph">graph</a></li>
-                                <li><a class="nav-link scrollto" href="/andrewgraph">andrew graph</a></li>
-                                <li><a class="nav-link scrollto" href="/daniamgraph">daniam graph</a></li>
+                                <li><a class="nav-link scrollto" href="#"></a></li>
+                                <li><a class="nav-link scrollto" href="#"></a></li>
+                                <li><a class="nav-link scrollto" href="#"></a></li>
+        
+        
+        
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#"><span>services</span> <i class="bi bi-chevron-down"></i></a>
+                            <ul>
+                                <li><a class="nav-link scrollto" href="#"></a></li>
+                                <li><a class="nav-link scrollto" href="#"></a></li>
+                                <li><a class="nav-link scrollto" href="#"></a></li>
+        
+        
+        
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#"><span>blog</span> <i class="bi bi-chevron-down"></i></a>
+                            <ul>
+                                <li><a class="nav-link scrollto" href="#"></a></li>
+                                <li><a class="nav-link scrollto" href="#"></a></li>
+                                <li><a class="nav-link scrollto" href="#"></a></li>
         
         
         
@@ -43,9 +77,16 @@
         
         
         
-                        <li><a class="getstarted scrollto" href="/logout">log out</a></li>
+                        <li><a class="nav-link scrollto" href="#">contact</a></li>
+                        <!--onclick event on these-->
+                        <li id="search" style="padding-left: 20px;padding-top: 5px;"><i class="bi bi-search" style="color:black"></i></li>
+                        <li id="shop" style="padding-left: 20px;padding-top: 5px;"><i class="bi bi-bag" style="color:black"></i></li>
+                        <li id="profilr" style="padding-left: 20px;padding-top: 5px;"><i class="bi bi-person" style="color:black"></i></li>
+                        
+                        
+                        <li><a class="getstarted scrollto" href="#">Appointment</a></li>
                     </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
+                   
                 </nav>
         
             </div>
@@ -69,7 +110,7 @@
                 <div class="col-md-6">
                 <!--forms-->
                 <div class="row checkoutform">
-                    <p style="background-color: #3DDC84;color:white;padding :10px">Billing Details</p>
+                    <p style="background-color:#008080;color:white;padding :10px">Billing Details</p>
                     <form class="col-md-10 justify-content-center">
                         <div class="row" style="padding-bottom: 20px;">
                             <div class="col-md-6">
@@ -97,7 +138,7 @@
 </form>
                 </div>
                 <div class="row checkoutform" >
-                    <p style="background-color: #3DDC84;color:white;padding :10px">Shipping Details</p>
+                    <p style="background-color: #008080;color:white;padding :10px">Shipping Details</p>
                     <form class=" col-md-10 justify-content-center">
                         <div class="row" style="padding-bottom: 20px;">
                             <div class="col-md-6">
@@ -159,7 +200,7 @@
                         <label>
                             <input type ="radio" checked value="paypal"/> Paypal
                         </label>
-                        <button type="button" class="btn btn-primary" style="width: inherit;background-color:#3DDC84 ;">Place Your Order</button>
+                        <button type="button" class="btn btn-primary col-md-12" style="background-color:#008080;">Place Your Order</button>
                         
                         
                     </div>
@@ -169,13 +210,13 @@
 
 
             </div>
-            <div class="row" style="background-color:#e6dcda ;opacity:0.7;margin: 5%;">
+            <div class="row" style="background-color:#e6dcda ;opacity:0.7;margin: 5%;padding:30px">
                 <div class="col-md-5">
-                    <p style="font-size: larger;color: #3DDC84;" class="d-flex align-items-center">Need help? Talk to
+                    <p style="font-size: larger;color: #008080;" class="d-flex align-items-center">Need help? Talk to
                         <br>
                         our expert
                     </p>
-                    <p style="font-size: x-small;color: #3DDC84;">talk to our expert or Browse through more help</p>
+                    <p style="font-size: x-small;color: #008080;">talk to our expert or Browse through more help</p>
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
                     <!--here needs bootstrap icons and add background image ... that eye -->
@@ -194,26 +235,77 @@
 
             </div>
             <div class="row" style="background-color: black;">
-                <!--footer-->
-                <div class="col-md-4 d-flex">
-                    <i class="bi bi-telephone-fill"style="color:#3DDC84"></i>
+                <!--footer  come back and fix the logo icon as well as the subscribe field 
+                the icons x contacts need to be aligned as well
+                -->
+                <div class="col-md-4">
+                    <i class="bi bi-telephone-fill"style="color:#008080;background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),#008080;padding:4px"></i>
                     <p style="font-size: x-small;color:white">Toll free customer care</p>
                     <p style="font-size: medium;color: white;">+1(230)-369-155-23</p>
                     
                 </div>
-                <div class="col-md-4">
-                    
+                <div class="col-md-4" >
+                  <!--<img style="object-fit: cover;" src="../images/eyecheck3.png"/>-->
                 </div>
                 <div class="col-md-4">
-                    <i class="bi bi-envelope"style="color:#3DDC84"></i>
+                    <i class="bi bi-envelope-fill"style="color:#008080;background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),#008080;padding:4px"></i>
                     <p style="font-size: x-small;color:white">Need live support?</p>
                     <p style="font-size: medium;color: white;">info@domain.com</p>
                 </div>
                 <hr>
                 <div class="row">
-<div class="col-md-4"></div>
-<div class="col-md-4"></div>
-<div class="col-md-4"></div>
+                <div class="col-md-8"style="color:white">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p style="font-size: large;color:white">Quick Links</p>
+                            <p style="font-size: x-small;">dadada</p>
+                            <p style="font-size: x-small;">dadada</p>
+                            <p style="font-size: x-small;">dadada</p>
+                            <p style="font-size: x-small;">dadada</p>
+                            <p style="font-size: x-small;">dadada</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p style="font-size: large;color:white">Products</p>
+                            <p style="font-size: x-small;">dadada</p>
+                            <p style="font-size: x-small;">dadada</p>
+                            <p style="font-size: x-small;">dadada</p>
+                            <p style="font-size: x-small;">dadada</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p style="font-size: large;color:white">Customer Care</p>
+                            <p style="font-size: x-small;">dadada</p>
+                            <p style="font-size: x-small;">dadada</p>
+                            <p style="font-size: x-small;">dadada</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p style="font-size: large;color:white">Keep yourself upto date</p>
+                        <!--form and button-->
+                    <input type="email" class="form-control" placeholder="subscribe"/>
+                    <p class="d-flex" style="font-size: medium;color:white;padding:10px">Follow us: 
+                        <i class="bi bi-facebook" style="padding:3px">
+
+                    </i>
+                    <i class="bi bi-linkedin" style="padding:3px">
+
+                    </i>
+                        <i class="bi bi-instagram"style="padding:3px">
+
+                        </i>
+                    </p>
+                </div>
+                </div>
+                <hr>
+                <div class="row" style="color: white;padding:10px">
+                    <div class="col-md-8">
+                        <p style="font-size: x-small;">Eye Checkup @ 2023 All Rights Reserved</p>
+                    </div>
+                    <div class="col-md-4 d-flex">
+                        <p style="font-size: x-small;padding: 5px;">Privacy .</p>
+                        <p style="font-size: x-small;padding:5px">Terms .</p>
+                        <p style="font-size: x-small;padding:5px">Sitemap </p>
+                    </div>
                 </div>
             </div>
 
